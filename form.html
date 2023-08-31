@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: bisque;
+        background-image:html\gero.jpg;
+    }
+    h1{
+        color:blueviolet;
+        text-decoration:underline;
+    }
+</style>
+<body >
+    <h1 align="center">APPLICATION FORM</h1>
+    <form action="table.html" method="GET" enctype="multipart/form-data">
+    <div>
+        <label for="username">user name</label>
+        <input type="text" name="username" id="username" placeholder="user name" maxlength="20" required>
+    <br>
+    </div>
+    <div style="color:red">
+        <label for="password">password</label>
+        <input type="password" name="username" id="password" placeholder="password" maxlength="8" required>
+    </div>
+    <div>
+        <label  for="dob">yearof birth</label>
+        <input type="date" name="dob" id="dob" placeholder="DOB" required min="1960-01-01">
+    </div>
+    <div>
+        <label for="mail">email</label>
+        <input type="email" name="mail" id="mail" placeholder="mail" maxlength="30" required>
+    </div>
+    <div>
+        <textarea name="her" id="her" cols="15" rows="5">hi buddy</textarea>
+    </div>
+    <div>
+        <input type="checkbox" name="emai" id="cemail">
+        <label for="cemail">send mail</label>
+    </div>
+    <div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">male
+            <input type="radio" name="gender" id="female" value="female">female
+            <input type="radio" name="gender" id="others" value="others">others
+        </div>
+    </div>
+    <div>
+        state  <select name="state" id="state" required>
+            <option value="TN">tamilnadu</option>
+            <option value="AP">andhra pradesh</option>
+            <option value="KT">karnataka</option>
+            <option value="kl">kerela</option>
+        </select>
+    </div>
+    <div>
+        phoneno <input type="tel" name="num" id="num" required>
+        <br>
+        <input type="file" name="file1" id="file1" required>
+    </div>
+    <div>
+        <input type="hidden" name="hidden" id="hidden" value="4567" required>
+    </div>
+    <button type="submit">next</button>
+    <button type="reset">resubmit</button>
+    </form>
+</body>
+</html>
