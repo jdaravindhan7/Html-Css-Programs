@@ -1,0 +1,108 @@
+.greene{
+    color:blanchedalmond;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:10px solid #c08261;
+    border-width: 10px;
+    border-radius: 20px; 
+    background-color:crimson;
+    border-style:inset;
+    border-radius: 30px;
+    margin-left:300px;
+    margin-right:300px;
+    
+
+}
+p{
+    dispaly:inline;
+}
+a{
+    color:aqua
+}
+*{
+    color:blueviolet;
+}
+h1~h2{
+    color:tomato;
+    text-decoration: double;
+}
+h1,h2{
+    color:crimson;
+    text-decoration:solid;
+    color:rgb(230,250,190);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2em;
+    font-weight:lighter;
+    font-style:italic;
+    font-stretch:normal;
+}
+#surprise{
+    background-color:dodgerblue;
+}
+.demon{
+    background-color:violet;
+    border: 10px gold;
+    border-style:outset;
+    border-width: 7px;
+    border-radius:20px;
+    margin-top: 30px;
+    width:90%;
+}
+.tony{
+    background-color: white;
+    border:7px greenyellow;
+    border-style:inset;
+    border-radius: 20px;
+    font-size:1em;
+    height: 300px;
+    margin-left:-20px;
+    margin:0 auto;
+    max-width:2000px;
+    min-width:200px;
+    background-position:center center;
+
+}
+p[class="str"]{
+    text-align: center;
+    margin-left:300px;
+    margin-top:-20px;
+    line-height: 300px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom:59px;
+}
+.tip{
+    color:blanchedalmond;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:7px solid #c08261;
+    border-width: 10px;
+    border-radius: 20px; 
+    background-color:crimson;
+    border-style:inset;
+    border-radius: 30px;
+    margin-left:300px;
+    margin-right:300px;
+}
+p[class*="th"]{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px gray;
+}
+p:first-letter{
+    font-size: 3em;
+}
+a:link{
+    color:springgreen;
+}
+a:visited{
+    color:slateblue;
+}
+a:hover{
+    color:blue;
+    text-decoration: none;
+}
+a:active{
+    color:sienna;
+}
